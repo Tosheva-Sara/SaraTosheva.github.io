@@ -1,0 +1,286 @@
+body{
+ /*   font-family: "Times New Roman", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  */  width: 1000px;
+    margin-left: 200px;
+  /*  margin-right: 50px;*/
+background:#efeae1;
+  /* border: solid black 5px;*/
+font-family: monospace;
+
+}
+#Home > div > div.pocetna1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Home > div > div.pocetna1 > div.paragraf1 > p{
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 25px ;
+    margin-top: 183px;
+    font-size: 16px;
+}
+
+#Home > div > div.pocetna1 > div.slika1 > img{
+    width: 450px;
+    height: 600px;
+
+}
+#Home > div > div.ime{
+    text-align: center;
+    padding: 35px;
+    background: #e4b9b9;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    width: 450px;
+    height: 12px;
+    border-radius: 25px ;
+    margin-left: -34px;
+    margin-top: -86px;
+}
+#Home > div {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+#Home > div > div.pocetna1 > div.paragraf1{
+    background:#ebcccc;
+   margin-bottom: 88px;
+    margin-top: 50px;
+    margin-right: 24px;
+    margin-left: -48px;
+    padding: 0 20px;
+}
+#Biography > div > div.bio{
+    display: flex;
+justify-content: space-between;
+}
+#Biography > div > div.bio > div.italy > img{
+    width: 500px;
+    height: auto;
+}
+#Biography > div > div.bio > div.bioparagaf{
+    background: lightgrey;
+    margin-left: 20px;
+    height: 730px;
+
+}
+#Biography > div > div.bio > div.bioparagaf > p{
+    height: 495px;
+    font-size: 26px;
+    margin: 45px;
+    color: #424242;
+    letter-spacing: 0.5px;
+}
+#Biography > div > div.recenica{
+    background:#e4b9b9 ;
+    border-radius: 25px;
+    height: 82px;
+    width: 450px;
+font-size: 14px;
+    margin-top: -104px;
+    margin-left: 23px;
+}
+#Biography > div > div.recenica > p{
+    color:white;
+    text-align: center;
+padding-top: 17px;
+
+}
+#Hoby > div{
+    margin-top: 80px;
+
+}
+#Hoby > div > div>img {
+    width: 120px;
+    height: 120px;
+}
+#Hoby > div > p{
+    background:#ebcccc;
+    width: 400px;
+    height: 640px;
+    color: white;
+
+    padding: 20px;
+    font-size: 31px;
+
+    margin-left: 257px;
+
+}
+#Hoby > div > div > div.sliki1 > div.hobi1{
+    margin-top: -250px;
+}
+#Hoby > div > div > div.sliki1 > div.hobi1 > img{
+    position: relative;
+    left: -59px;
+    top: -468px;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+}
+#Hoby > div > div > div.sliki1 > div.hobi2 > img{
+    position: relative;
+    left: -27px;
+    top: -448px;
+    height: 240px;
+    width: 240px;
+    border-radius: 25px;
+}
+#Hoby > div > div > div.hobi3 > img{
+    position: relative;
+    left: 714px;
+    top: -1109px;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+}
+#Hoby > div > div > div.hobi4 > img{
+    position: relative;
+    left: 751px;
+    top: -1091px;
+    height: 240px;
+    width: 240px;
+    border-radius: 25px;
+}
+#Contact > div > a.instagram > img{
+    width: 40px;
+    height: auto;
+    position: relative;
+    right: 60px;
+}
+#Contact > div > a.facebook > img{
+    width: 40px;
+    height: auto;
+}
+
+
+#Contact > div > a.emil > img{
+    width: 40px;
+    height: auto;
+    position: relative;
+    left: 60px;
+}
+
+
+body > footer{
+    background: #e4b9b9;
+    color: white;
+    height: 125px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.skills{
+   /* background: lightgrey;*/
+    border-radius: 25px;
+    color: #424242;
+    padding: 20px 0;
+    margin-bottom: 50px;
+    width: 700px;
+   margin-left: -15px;
+    height: 500px;
+}
+#Skills > div > ul{
+    background: lightgrey;
+
+}
+#Skills >  div.sliki > div.skill1 > img{
+    height: 190px;
+    width: 170px;
+margin-top: 28px;
+    margin-left: -193px;
+}
+
+#Skills >  div.sliki > div.skill2 > img{
+    height: 170px;
+    width: 150px;
+    margin-top: 20px;
+
+}
+#Skills >  div.sliki > div.skill3 > img{
+    height: 190px;
+    width: 170px;
+    margin-top: -17px;
+    margin-left: -125px;
+    padding: 20px;
+
+}
+#Skills >  div.sliki > div.skill4 > img{
+    height: 190px;
+    width: 170px;
+    margin-top: -13px;
+    margin-left: -760px;
+
+}
+#Skills > div.sliki{
+    float: right;
+}
+#Hoby > div{
+
+    position: relative;
+    left: 25px;
+    width: 900px;
+}
+body > header > div>a{
+    color: #424242;
+    text-decoration: none;
+    position: relative;
+    top: 87px;
+    left: -79px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 0 3px;
+    background: whitesmoke;
+    border-radius: 15px;
+    padding: 6px;
+}
+#Skills > div{
+    position: relative;
+
+
+}
+#Skills > div > ol{
+    position: relative;
+    left: 150px;
+}
+body > footer{
+    position: relative;
+
+}
+#Hoby{
+    height: 700px;
+}
+
+#Skills{
+    height: 800px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+
+}
+#Skills > div.skills > ul{
+    height: 145px;
+    width: 480px;
+    list-style: none;
+    text-align: justify;
+    border-radius: 15px;
+padding-top: 25px;
+    font-size: 20px;
+}
+#Skills >div{
+    margin-left:50px ;
+}
+#Skills > div.skills > ul:nth-child(2){
+    margin-left: 440px;
+    margin-top: 50px;
+}
+#Skills > div.sliki > div.skill2 > img{
+    margin-left: -660px;
+    padding-bottom: 20px;
+}
+#Skills > div.skills > ul:nth-child(4){
+    margin-left: 440px;
+}
